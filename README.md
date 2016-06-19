@@ -83,3 +83,5 @@ export const secureFunction = (someparams) => {
 - [ ] Add childrens to `SecureRoute`
 - [ ] Add configs for headers
 - [ ] Remove `superagent`
+- [ ] Add `dist` folder
+- [ ] publish ?
