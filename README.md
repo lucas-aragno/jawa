@@ -73,15 +73,14 @@ export const secureFunction = (someparams) => {
   <SecureRoute path="/" secureWith={secureFunction}>
     <Route path="/protected" component={WeirdStuff} />
   </SecureRoute>
-  
+
 ...
 
 ```
 
 ## TODO
 
-- [ ] Add childrens to `SecureRoute`
 - [ ] Add configs for headers
 - [ ] Remove `superagent`
-- [ ] Add `dist` folder
+- [ x ] Add `dist` folder
 - [ ] publish ?

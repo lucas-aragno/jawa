@@ -3,16 +3,20 @@ import { Route } from 'react-router'
 
 export const SecureRoute = ({
   secureWith,
-  path
+  path,
+  children
 }) => (
   <Route
     path={path}
-    onEnter={secureWith} />
+    onEnter={secureWith} >
+    {children}
+  </Route>
 )
 
 SecureRoute.propTypes = {
   path: PropTypes.string.isRequired,
-  secureWith: PropTypes.func.isRequired
+  secureWith: PropTypes.func.isRequired,
+  children: PropTypes.any.isRequired
 }
 
 export default SecureRoute
