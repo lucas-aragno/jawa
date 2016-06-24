@@ -82,5 +82,5 @@ export const secureFunction = (someparams) => {
 
 - [ ] Add configs for headers
 - [ ] Remove `superagent`
-- [ x ] Add `dist` folder
+- [x] Add `dist` folder
 - [ ] publish ?
