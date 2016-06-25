@@ -10,9 +10,11 @@
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.23.1",
     "express": "^4.13.4",
+    "jawa": "1.0.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
+    "react-router": "^2.5.1",
     "redux": "^3.5.2",
     "webpack": "^1.13.1"
   },

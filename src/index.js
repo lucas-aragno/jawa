@@ -1,4 +1,4 @@
-import reducer from './reducers/session'
+import reducer from './reducer/session'
 import actions from './actions/sessions'
 import SecureRouteComponent from './router/SecureRoute'
 

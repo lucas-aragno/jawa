@@ -5,7 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.sessionReducer = exports.SecureRoute = exports.sessionActions = undefined;
 
-var _session = require('./reducers/session');
+var _session = require('./reducer/session');
 
 var _session2 = _interopRequireDefault(_session);
 

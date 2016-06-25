@@ -16,14 +16,20 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var SecureRoute = exports.SecureRoute = function SecureRoute(_ref) {
   var secureWith = _ref.secureWith;
   var path = _ref.path;
-  return _react2.default.createElement(_reactRouter.Route, {
-    path: path,
-    onEnter: secureWith });
+  var children = _ref.children;
+  return _react2.default.createElement(
+    _reactRouter.Route,
+    {
+      path: path,
+      onEnter: secureWith },
+    children
+  );
 };
 
 SecureRoute.propTypes = {
   path: _react.PropTypes.string.isRequired,
-  secureWith: _react.PropTypes.func.isRequired
+  secureWith: _react.PropTypes.func.isRequired,
+  children: _react.PropTypes.any.isRequired
 };
 
 exports.default = SecureRoute;
