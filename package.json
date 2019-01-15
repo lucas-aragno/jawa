@@ -24,7 +24,7 @@
     "react": "^15.1.0",
     "react-router": "^2.4.1",
     "react-router-redux": "^4.0.5",
-    "superagent": "^2.0.0",
+    "superagent": "^3.8.1",
     "webpack": "^1.13.1"
   },
   "devDependencies": {
